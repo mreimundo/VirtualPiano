@@ -1,0 +1,62 @@
+.container {
+    display:flex;
+    left: 50%;
+    top: 50%;
+}
+
+.white-keys {
+    color: black;
+    background: white;
+    height:115px;
+    position: absolute;
+    border: 5px solid black;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+body {
+    background-color: lightblue;
+}
+.each-w {
+    background: white;
+    line-height: 80px;
+    border: 5px solid black;
+    text-align: center;
+    padding: 30px 15px 0px 15px;
+    width: max-content;
+    height: 80px;
+    font-size: 16px;
+}
+
+.black-keys {
+    color: white;
+    height:30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    margin:-10px;
+}
+
+.each-b {
+    background: black;
+    line-height: 30px;
+    border: 2px solid black;
+    text-align: center;
+    padding:35px 5px 0px 5px;
+    height: 80px;
+    z-index: 1;
+    position: relative;
+
+}
+
+.right-b {
+    margin: 12px;
+    right: 15px;
+}
+.left-b{
+    right: -33px;
+    margin: 12px;
+}
